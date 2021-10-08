@@ -23,6 +23,13 @@ vertical-align: baseline;
 html{
     font-size:62.5%;
 }
+@media (max-width: 500px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
 body{
     font-size:1.6rem;
     line-height: 1.5;
